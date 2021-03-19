@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
- }
+}
 
  /* magnifer styles  */
 .img-magnifier-container {
@@ -88,10 +88,10 @@ span .notch-left {
 	display: block;
 	width: 100%;
 } */
-.hotspot-left {
+/* .hotspot-left {
 	position: relative;
 	width: 100%;
-}
+} */
 .spots {
 	position: absolute;
 	left: 0;
