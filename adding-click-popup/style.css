@@ -5,7 +5,8 @@
  /* magnifer styles  */
 .img-magnifier-container {
     position: relative;
-    left: 50%;
+    /* left: 10%; */
+    width: 600px;
 }
 
 .img-magnifier-glass {
@@ -30,24 +31,24 @@ span {
 	background-color: rgba(255,255,255);
 	border: .25px solid #004990;
 }
-span h1 {
+/* span h1 {
     font-size: 16px;
-    /* margin-top: 5px; */
+    /* margin-top: 5px; 
     color: #004990;;
-}
+} */
 span p {
     margin-top: 4px;
     /* margin-bottom: 10px; */
-    font-style: italic;
+    /* font-style: italic; */
 	color: #004990;;
 }
-span .notch {
+/* span .notch {
     position: absolute;
     padding: 0;
     width: 0;
     height: 0;
-}
-span .notch-top {
+} */
+/* span .notch-top {
     top: -10px;
     left: 50%;
     margin-left: -10px;
@@ -55,8 +56,8 @@ span .notch-top {
     border-right: 10px solid transparent;
     border-bottom: 10px solid rgba(0,0,0,0.7);
     border-left: 10px solid transparent;
-}
-span .notch-right {
+} */
+/* span .notch-right {
 	top: 50%;
 	right: -10px;
 	margin-top: -10px;
@@ -64,8 +65,8 @@ span .notch-right {
     border-right: 0;
     border-bottom: 10px solid transparent;
     border-left: 10px solid rgba(0,0,0,0.7);
-}
-span .notch-bottom {
+} */
+/* span .notch-bottom {
 	bottom: -10px;
 	left: 50%;
 	margin-left: -10px;
@@ -73,8 +74,8 @@ span .notch-bottom {
     border-right: 10px solid transparent;
     border-bottom: 0;
     border-left: 10px solid transparent;
-}
-span .notch-left {
+} */
+/* span .notch-left {
 	top: 50%;
 	left: -10px;
     margin-top: -10px;
@@ -82,8 +83,13 @@ span .notch-left {
     border-right: 10px solid rgba(0,0,0,0.7);
     border-bottom: 10px solid transparent;
     border-left: 0;
+} */
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-/* img {
+/* p img {
 	display: block;
 	width: 100%;
 } */
@@ -101,108 +107,106 @@ span .notch-left {
 .spot {
     position: absolute;
 	text-align: center;
-	line-height: 32px;
-    font-size: 32px;
+	line-height: 20px;
+    font-size: 30px;
 	font-weight: bold;
 	color: #fff;
-    width: 32px;
-    height: 32px;
+    width: 20px;
+    height: 20px;
 	border: 1px solid #366603;
 	border-radius: 16px;
 	background-color: #5fb404;
+    /* display: none; */
 }
-.spot:hover {
+/* .spot:hover {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
-}
-#spot-01, #spot-02, #spot-03, #spot-04, #spot-05, #spot-06, #spot-07, #spot-08  {
+} */
+#spot-01, #spot-02, #spot-03, #spot-04, #spot-05, #spot-06, #spot-07  {
 	display: inline-block;
 	/* min-width: 250px; */
 	max-width: 200px;
 }	
-#spot-01:hover > span, #spot-02:hover > span, #spot-03:hover > span, #spot-04:hover > span, #spot-05:hover > span, #spot-06:hover > span, #spot-07:hover > span, #spot-08:hover > span {
+#spot-01:hover > span, #spot-02:hover > span, #spot-03:hover > span, #spot-04:hover > span, #spot-05:hover > span, #spot-06:hover > span, #spot-07:hover > span {
 	display: block;
 	z-index: 1;
 }
+/* top of tree  */
 #spot-01 {
 	position: absolute;
-    top: 40px;
-    left: 27%;
+    top: 26%;
+    left: 31%;
 }
 #spot-01:hover > span {
-	top: 155px;
-	left: -200px;
+	bottom: 0;
+    left: 20%;
 }
 /* *************************  */
+/* eye  */
 #spot-02 {
 	position: absolute;
-    top: 28%;
-    left: 40%;
+    top: 38%;
+    left: 52%;
 }
 #spot-02:hover > span {
-    top: -155px;
-	left: -70%;
+    top: 50%;
+    left: 50%;
 }
 /* *************************  */
+/* forehead - spear top  */
 #spot-03 {
 	position: absolute;
-    top: 28%;
-    left: 56%;
+    top: 37.5%;
+    left: 56.5%;
 }
 #spot-03:hover > span {
-    top: -160px;
-    left: -20%;
+    top: 50%;
+    left: 50%;
 }
 /* *************************  */
+/* mid-sword  */
 #spot-04 {
 	position: absolute;
-    top: 40%;
-    left: 67%;
+    top: 44%;
+    left: 55.5%;
 }
 #spot-04:hover > span {
-    top: -130px;
-    left: 20%;
+    top: 50%;
+    left: 50%;
 }
 /* *************************  */
+/* mid-spear  */
 #spot-05 {
 	position: absolute;
-    top: 55.5%;
-    left: 67%;
+    top: 40%;
+    left: 66%;
 }
 #spot-05:hover > span {
-    top: -20px;
-    left: 20%;
+    top: 50%;
+    left: 50%;
 }
 /* *************************  */
+/* shield  */
 #spot-06 {
 	position: absolute;
-    top: 67%;
-    left: 55%;
+    top: 41%;
+    left: 77%;
 }
 #spot-06:hover > span {
-    top: 40px;
-    left: 5%;
+    top: 50%;
+    left: 50%;
 }
 /* *************************  */
+/* helmet  */
 #spot-07 {
 	position: absolute;
-    top: 67%;
-    left: 40%;
+    top: 29%;
+    left: 73%;
 }
 #spot-07:hover > span {
-    top: 40px;
-    left: -40%;
-}
-/* *************************  */
-#spot-08 {
-	position: absolute;
-    top: 55%;
-    left: 28%;
-}
-#spot-08:hover > span {
-    top: 40px;
-    left: -80%;
+    top: 50%;
+    left: 50%;
 }
