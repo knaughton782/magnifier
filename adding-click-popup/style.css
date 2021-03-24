@@ -42,48 +42,6 @@ span p {
     /* font-style: italic; */
 	color: #004990;;
 }
-/* span .notch {
-    position: absolute;
-    padding: 0;
-    width: 0;
-    height: 0;
-} */
-/* span .notch-top {
-    top: -10px;
-    left: 50%;
-    margin-left: -10px;
-    border-top: 0;
-    border-right: 10px solid transparent;
-    border-bottom: 10px solid rgba(0,0,0,0.7);
-    border-left: 10px solid transparent;
-} */
-/* span .notch-right {
-	top: 50%;
-	right: -10px;
-	margin-top: -10px;
-    border-top: 10px solid transparent;
-    border-right: 0;
-    border-bottom: 10px solid transparent;
-    border-left: 10px solid rgba(0,0,0,0.7);
-} */
-/* span .notch-bottom {
-	bottom: -10px;
-	left: 50%;
-	margin-left: -10px;
-    border-top: 10px solid rgba(0,0,0,0.7);
-    border-right: 10px solid transparent;
-    border-bottom: 0;
-    border-left: 10px solid transparent;
-} */
-/* span .notch-left {
-	top: 50%;
-	left: -10px;
-    margin-top: -10px;
-    border-top: 10px solid transparent;
-    border-right: 10px solid rgba(0,0,0,0.7);
-    border-bottom: 10px solid transparent;
-    border-left: 0;
-} */
 p {
     display: flex;
     justify-content: center;
@@ -118,6 +76,9 @@ p {
 	background-color: #5fb404;
     /* display: none; */
 }
+.spotHide {
+    display: none;
+}
 /* .spot:hover {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
@@ -141,8 +102,8 @@ p {
     left: 31%;
 }
 #spot-01:hover > span {
-	bottom: 0;
-    left: 20%;
+	bottom: -250px;
+    left: 10%; 
 }
 /* *************************  */
 /* eye  */
@@ -152,8 +113,8 @@ p {
     left: 52%;
 }
 #spot-02:hover > span {
-    top: 50%;
-    left: 50%;
+    bottom: -150px;
+    left: -100px;
 }
 /* *************************  */
 /* forehead - spear top  */
@@ -163,8 +124,8 @@ p {
     left: 56.5%;
 }
 #spot-03:hover > span {
-    top: 50%;
-    left: 50%;
+    bottom: -150px;
+    left: -130px;
 }
 /* *************************  */
 /* mid-sword  */
@@ -174,8 +135,8 @@ p {
     left: 55.5%;
 }
 #spot-04:hover > span {
-    top: 50%;
-    left: 50%;
+    bottom: -100px;
+    left: -130px;
 }
 /* *************************  */
 /* mid-spear  */
@@ -185,8 +146,8 @@ p {
     left: 66%;
 }
 #spot-05:hover > span {
-    top: 50%;
-    left: 50%;
+    bottom: -120px;
+    left: -190px;
 }
 /* *************************  */
 /* shield  */
@@ -196,8 +157,8 @@ p {
     left: 77%;
 }
 #spot-06:hover > span {
-    top: 50%;
-    left: 50%;
+    bottom: -120px;
+    left: -220px;
 }
 /* *************************  */
 /* helmet  */
@@ -207,6 +168,6 @@ p {
     left: 73%;
 }
 #spot-07:hover > span {
-    top: 50%;
-    left: 50%;
+    bottom: -200px;
+    left: -220px;
 }
