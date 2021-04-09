@@ -47,21 +47,6 @@ p {
     justify-content: center;
     align-items: center;
 }
-/* p img {
-	display: block;
-	width: 100%;
-} */
-/* .hotspot-left {
-	position: relative;
-	width: 100%;
-} */
-/* .spots {
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-} */
 .spot {
     position: absolute;
 	text-align: center;
@@ -76,19 +61,13 @@ p {
 	background-color: #5fb404;
     /* display: none; */
 }
-.spotHide {
-    display: none;
+.reload {
+    padding: 5px;
+    background-color:burlywood
+
 }
-/* .spot:hover {
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg);
-} */
 #spot-01, #spot-02, #spot-03, #spot-04, #spot-05, #spot-06, #spot-07  {
 	display: inline-block;
-	/* min-width: 250px; */
 	max-width: 200px;
 }	
 #spot-01:hover > span, #spot-02:hover > span, #spot-03:hover > span, #spot-04:hover > span, #spot-05:hover > span, #spot-06:hover > span, #spot-07:hover > span {
@@ -99,7 +78,7 @@ p {
 #spot-01 {
 	position: absolute;
     top: 26%;
-    left: 19%;
+    left: 17%;
 }
 #spot-01:hover > span {
 	bottom: -250px;
@@ -109,7 +88,7 @@ p {
 /* eye  */
 #spot-02 {
 	position: absolute;
-    top: 38%;
+    top: 37%;
     left: 39%;
 }
 #spot-02:hover > span {
@@ -120,7 +99,7 @@ p {
 /* forehead - spear top  */
 #spot-03 {
 	position: absolute;
-    top: 37.5%;
+    top: 36%;
     left: 43%;
 }
 #spot-03:hover > span {
@@ -131,7 +110,7 @@ p {
 /* mid-sword  */
 #spot-04 {
 	position: absolute;
-    top: 44%;
+    top: 43%;
     left: 42%;
 }
 #spot-04:hover > span {
@@ -143,7 +122,7 @@ p {
 #spot-05 {
 	position: absolute;
     top: 40%;
-    left: 53%;
+    left: 52%;
 }
 #spot-05:hover > span {
     bottom: -120px;
@@ -154,7 +133,7 @@ p {
 #spot-06 {
 	position: absolute;
     top: 41%;
-    left: 65%;
+    left: 64%;
 }
 #spot-06:hover > span {
     bottom: -120px;

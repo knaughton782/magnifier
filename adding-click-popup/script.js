@@ -1,7 +1,6 @@
 function magnify(imgID, zoom) {
     var img, glass, w, h, bw, spot;
     img = document.getElementById(imgID);
-    // spot = querySelector('.spot');
 
     /*create magnifier glass:*/
     glass = document.createElement("DIV");
@@ -26,7 +25,7 @@ function magnify(imgID, zoom) {
     /* and with click */
     glass.addEventListener("click", moveMagnifier);
     img.addEventListener("click", moveMagnifier);
-    // spot.addEventListener("click", hideSpot);
+
 
     function moveMagnifier(e) {
         var pos, x, y;
@@ -69,9 +68,54 @@ function magnify(imgID, zoom) {
         return { x: x, y: y };
     }
 
-    // function hideSpot(spot) {
-    //     document.querySelector('.spot').addEventListener('click', () => {
-    //         document.querySelector('.spot').classList.add('spotHide');
-    //     });
-    // }
 }
+
+// var elements = document.getElementById("#spot1, #spot2, #spot3, #spot4, #spot5, #spot6, #spot7");
+
+// doStuff(getElementsById("spot1 spot2 spot3 spot4 spot5 spot6 spot7"));
+
+// function getElementsById(ids) {
+//     var idList = ids.split(" ");
+//     var results = [], item;
+//     for (var i = 0; i < idList.length; i++) {
+//         item = document.getElementById(idList[i]);
+//         if (item) {
+//             results.push(item);
+//         }
+//     }
+//     hideSpot(...results);
+//     return(results);
+// }
+
+
+function hideSpot1() {
+    // let x = document.getElementById('spot1');
+    // if (x.style.display == 'none') {
+    //     x.style.display = 'block';
+    // } else {
+    //     x.style.display = 'none';
+    // }
+    document.getElementById('spot1').style.display = 'none';
+}
+function hideSpot2() {
+    document.getElementById('spot2').style.display = 'none';
+}
+function hideSpot3() {
+    document.getElementById('spot3').style.display = 'none';
+}
+function hideSpot4() {
+    document.getElementById('spot4').style.display = 'none';
+}
+function hideSpot5() {
+    document.getElementById('spot5').style.display = 'none';
+}
+function hideSpot6() {
+    document.getElementById('spot6').style.display = 'none';
+}
+function hideSpot7() {
+    document.getElementById('spot7').style.display = 'none';
+}
+function redo() {
+    location.reload();
+}
+
