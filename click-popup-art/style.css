@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+ /* magnifer styles  */
+.img-magnifier-container {
+    position: relative;
+    /* left: 10%; */
+    width: 600px;
+}
+
+.img-magnifier-glass {
+    position: absolute;
+    border: 3px solid #000;
+    border: 3px solid #ff0000;
+    border: 3px solid rgba(31, 242, 70);
+    border-radius: 50%;
+    cursor: none;
+    /* Set the size & shape of the magnifier glass here */
+    width: 200px;
+    height: 200px;
+}
+
+/* styles for the hotspots */
+span {
+	position: relative;
+	display: none;
+	border-radius: 8px;
+	padding: 5px;
+	text-align: center;
+	line-height: 1.5em;
+	color: #fff;
+	background-color: rgba(255,255,255);
+	border: .25px solid #004990;
+}
+/* span h1 {
+    font-size: 16px;
+    /* margin-top: 5px; 
+    color: #004990;;
+} */
+span p {
+    margin-top: 4px;
+    /* margin-bottom: 10px; */
+    /* font-style: italic; */
+	color: #004990;;
+}
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spot {
+    position: absolute;
+	text-align: center;
+	line-height: 20px;
+    font-size: 30px;
+	font-weight: bold;
+	color: #fff;
+    width: 30px;
+    height: 30px;
+	border: 1px solid #366603;
+	border-radius: 16px;
+	background-color: #5fb404;
+	background-color: rgba(31, 242, 70, 0.6);
+    /* display: none; */
+}
+.reload {
+    padding: 5px;
+    background-color:rgb(69, 69, 69);
+    color: rgba(255,255,255);
+    border-radius: 4px;
+
+}
+#spot-01, #spot-02, #spot-03, #spot-04  {
+	display: inline-block;
+	max-width: 200px;
+}	
+#spot-01:hover > span, #spot-02:hover > span, #spot-03:hover > span, #spot-04:hover > span {
+	display: block;
+	z-index: 1;
+}
+/* man's head  */
+#spot-01 {
+	position: absolute;
+    top: 35%;
+    left: 25%;
+}
+#spot-01:hover > span {
+	top: -200px;
+    left: 0; 
+}
+/* *************************  */
+/* right hand holding scalpel  */
+#spot-02 {
+	position: absolute;
+    top: 55%;
+    left: 20%;
+}
+#spot-02:hover > span {
+    top: -300px;
+    left: 0;
+}
+/* *************************  */
+/* seated female  */
+#spot-03 {
+	position: absolute;
+    top: 60%;
+    left: 10%;
+}
+#spot-03:hover > span {
+    top: -400px;
+    left: 0;
+}
+/* *************************  */
+/* surgical center of patience  */
+#spot-04 {
+	position: absolute;
+    top: 65%;
+    left: 42%;
+}
+#spot-04:hover > span {
+    top: -400px;
+    left: -100px;
+}
+

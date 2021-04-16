@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <p style="text-align:center;">Mouse over or click on the image to enlarge:</p>
+  <!-- whole container opening div -->
+  <div class="img-magnifier-container">
+    <!-- ****** ADD IMAGE HERE **************** -->
+    <!-- IMPORTANT: image dimensions can be adjusted here per image requirements -->
+    <img id="myimage" src="The_Gross_Clinic.jpg" width="437" height="673">
+    <p class="reload" onclick="redo()">Click here to redo the activity.</p>
+
+    <div id="spot-01" onclick="hideSpot1()">
+      <a class="spot" id="spot1"><span style="display: none;">+</span></a>
+      <span>
+        <!-- <h1></h1> -->
+        <p>Light on the head indicates intellectual genius.</p>
+
+      </span>
+    </div>
+    <div id="spot-02" onclick="hideSpot2()">
+      <a class="spot" id="spot2"><span style="display: none;">+</span></a>
+      <span>
+        <!-- <h1></h1> -->
+        <p>The red color of the blood indicates in the instrument of his genius - his hand.</p>
+      </span>
+    </div>
+    <div id="spot-03" onclick="hideSpot3()">
+      <a class="spot" id="spot3"><span style="display: none;">+</span></a>
+      <span>
+        <!-- <h1></h1> -->
+        <p>The female chaperone covering her face contrasts her emotional sensitivity against Dr. Gorss' male intellectual steadiness.</p>
+      </span>
+    </div>
+    <div id="spot-04" onclick="hideSpot4()">
+      <a class="spot" id="spot4"><span style="display: none;">+</span></a>
+      <span>
+        <!-- <h1></h1> -->
+        <p>The red color of blood indicates the practice of his genius - surgery.</p>
+      </span>
+    </div>
+  
+
+  </div>
+
+
+  <script>
+    /* Initiate Magnify Function
+    with the id of the image, and the strength of the magnifier glass */
+    magnify("myimage", 2);
+  </script>
+
+</body>
+
+</html>
